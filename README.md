@@ -4,4 +4,5 @@ A uav navigation simulator in large-scale complex environments. The environment 
 To install the environment, run:
 
 cd gym_uav
+
 pip install -e .
