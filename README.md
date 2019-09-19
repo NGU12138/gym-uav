@@ -3,6 +3,12 @@ A uav navigation simulator in large-scale complex environments. The environment 
 
 To install the environment, run:
 
-cd gym_uav
+cd gym-uav
 
 pip install -e .
+
+To test the environment, run:
+
+cd gym-uav
+
+python -m gym_uav.envs.uav_env
