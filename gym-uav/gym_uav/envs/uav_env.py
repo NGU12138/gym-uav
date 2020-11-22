@@ -9,9 +9,9 @@ import threading
 import itertools
 import copy
 
-from gym_uav.envs.utils import TimerCallback
-from gym_uav.envs.utils import Config
-from gym_uav.envs.utils import Smoother_soft
+from utils import TimerCallback
+from utils import Config
+from utils import Smoother_soft
 
 
 class UavEnv(gym.Env):
